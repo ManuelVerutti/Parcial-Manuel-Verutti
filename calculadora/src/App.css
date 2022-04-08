@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+  font-weight: bold;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.calculadora {
+  background-color: gainsboro;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;  
+  box-shadow: 10px 10px 40px 10px black;
+}
+
+.teclado {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.numerosR {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5px;
+  flex-direction: column;
+}
+
+.numeros {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btncero {
+  background-color: #282c34;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+  width: 170px;
+  height: 80px;
+  border: 0px;
+  font-size: xx-large;
+  border-radius: 10px;
+  
+  font-weight: bold;
+  box-shadow: 2px 2px 15px -10px black;
+}
+
+.numeros button{
+  background-color: #282c34;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  font-size: xx-large;
+  border-radius: 10px;
+  
+  font-weight: bold;
+  box-shadow: 2px 2px 15px -10px black;
+}
+.operadores button{
+  background-color: yellowgreen;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 5px;
+  width: 80px;
+  height: 60px;
+  border: 0px;
+  font-size: xx-large;
+  border-radius: 10px;
+  
+  box-shadow: 2px 3px 15px -10px black;
+}
+
+.operadores {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  flex-direction: column;
+}
+.display{
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 15px -10px black;
+  background-color: #282c34;
+  color: yellowgreen;
+  font-size: xx-large;
+}
